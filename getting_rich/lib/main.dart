@@ -9,9 +9,7 @@ void main() => runApp(
           ),
           backgroundColor: Colors.pinkAccent,
           body: Center(
-            child: Image(
-              image: NetworkImage('https://media.dnd.wizards.com/styles/story_banner/public/images/head-banner/DnD_DragonChess_Articles_Header.jpg')
-              ),
+            child: Image(image: AssetImage('images/diamond.png')),
           ),
         ),
       ),
