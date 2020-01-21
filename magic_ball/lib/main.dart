@@ -36,7 +36,6 @@ class _BallState extends State<Ball> {
         onPressed: () {
           setState(() {
             ballNumber = Random().nextInt(5) + 1;
-            print(ballNumber);
           });
         },
         child: Image.asset('images/ball$ballNumber.png'),
